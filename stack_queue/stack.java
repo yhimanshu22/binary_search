@@ -14,6 +14,7 @@ class Node {
 }
 
 public class stack {
+
     private Node top; // Pointer to the top node of the stack
 
     // Constructor to initialize the stack
@@ -74,4 +75,5 @@ public class stack {
         myStack.pop(); // Remove 10
         System.out.println("Is stack empty after popping all elements? " + myStack.isEmpty()); // Should print true
     }
+
 }
