@@ -148,6 +148,14 @@ public class Linked_list {
         return temp;
     }
 
+    public void clear(){
+        head = null;
+    }
+
+    public int get(int position){
+        Node temp = head;
+        for(int i=0;temp != null && i position)
+    }
     public static void main(String[] args) {
         Linked_list linkedList = new Linked_list();
 
